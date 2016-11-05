@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:src="@drawable/ic_menu_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/bExisting"
+        android:background="@color/blue"
+        android:layout_marginBottom="10dp"
+        android:text="Join My Existing"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+
+    <Button
+        android:id="@+id/bCreateNew"
+        android:background="@color/blue"
+        android:text="Create New"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+
+    <!--
+    <LinearLayout
+        android:layout_margin="@dimen/activity_vertical_margin"
+
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_gravity="center_horizontal|center_vertical"
+
+            android:id="@+id/imgbCretaeNewGroupChat"
+            android:layout_width="@dimen/imgb_width"
+            android:layout_height="@dimen/imgb_height"
+            android:src="@drawable/plus"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:scaleType="fitCenter" />
+
+
+        <ImageButton
+
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:id="@+id/imgbAddPeopleGroupChat"
+            android:layout_width="@dimen/imgb_width"
+            android:layout_height="@dimen/imgb_height"
+            android:src="@drawable/addPeople"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:scaleType="fitCenter" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageButton
+
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:id="@+id/imgbRemovePeople"
+        android:layout_width="@dimen/imgb_width"
+        android:layout_height="@dimen/imgb_height"
+        android:src="@drawable/minus"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitCenter" />
+
+
+    <ImageButton
+        android:layout_gravity="center_horizontal|center_vertical"
+
+        android:id="@+id/imgbJoinExistingChat"
+        android:layout_width="@dimen/imgb_width"
+        android:layout_height="@dimen/imgb_height"
+        android:src="@drawable/groupChat"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitCenter" />
+
+        </LinearLayout>-->
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_log_in"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/purpleLight"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="100"
+    tools:context="com.example.apu.safechat.LogInActivity"
+    app:layout_collapseParallaxMultiplier="0.9">
+        <TextView
+            android:layout_weight="20"
+            android:textAlignment="center"
+            android:background="@color/white"
+            android:textSize="30dp"
+            android:text="To Login Enter the Password and Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_weight="40"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <EditText
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="20"
+            android:background="@color/Amber"
+            android:id="@+id/emailField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email_hint" >
+        </EditText>
+
+        <EditText
+
+            android:layout_marginBottom="10dp"
+            android:background="@color/Amber"
+            android:layout_weight="20"
+            android:id="@+id/passwordField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/emailField"
+            android:ems="10"
+            android:hint="@string/password_hint"
+            android:inputType="textPassword"/>
+</LinearLayout>
+
+        <Button
+            android:layout_weight="20"
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="50dp"
+            android:layout_below="@+id/passwordField"
+            android:text="@string/login_button_label"/>
+
+        <TextView android:id="@+id/signUpText"
+            android:layout_weight="20"
+            android:textAlignment="center"
+            android:textSize="50dp"
+            android:background="@color/blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/loginButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/sign_up_text"/>
+
+</LinearLayout>
